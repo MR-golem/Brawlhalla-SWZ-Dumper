@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BrawlhallaDumperGUI/icon.ico" width="96" />
+  <img src="src\BrawlhallaDumperGUI\icon.ico" width="96" />
 </p>
 
 <h1 align="center">Brawlhalla SWZ Dumper</h1>
