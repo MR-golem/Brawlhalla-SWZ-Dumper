@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/BrawlKeyFinder/" />
+  <Folder Name="/BrawlKeyFinder/KeyFinder/">
+    <Project Path="BrawlKeyFinder/KeyFinder/BrawlKeyFinder.csproj" />
+  </Folder>
+  <Project Path="BrawlhallaDumperGUI/BrawlhallaDumperGUI.csproj" />
+  <Project Path="BrawlhallaSWZTool.csproj" />
+  <Project Path="SwzRoundTripTest/SwzRoundTripTest.csproj" />
+</Solution>

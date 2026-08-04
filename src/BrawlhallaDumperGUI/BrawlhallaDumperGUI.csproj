@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <AssemblyName>BrawlhallaDumperGUI</AssemblyName>
+    <RootNamespace>BrawlhallaDumperGUI</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+
+    <!-- ── Single EXE ── -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+    <!-- ── Output ── -->
+    <DebugType>embedded</DebugType>
+    <Optimize>true</Optimize>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrawlhallaSWZTool.csproj" />
+    <ProjectReference Include="..\BrawlKeyFinder\KeyFinder\BrawlKeyFinder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="icon.ico" />
+  </ItemGroup>
+
+</Project>
