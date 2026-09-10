@@ -132,3 +132,6 @@ The global key is embedded in `ANE_RawData.Init()` inside the game's ABC bytecod
 ## License
 
 This project is provided for research and modding purposes. No game binaries are distributed or modified at runtime.
+
+## Documentation
+Improved documentation and examples for better clarity.
