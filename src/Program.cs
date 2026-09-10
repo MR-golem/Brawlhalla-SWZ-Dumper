@@ -4,7 +4,7 @@ using BrawlhallaSWZTool;
 // Usage:
 //   BrawlhallaSWZTool decrypt <globalKey_hex> <outputDir> <file1.swz> [file2.swz ...]
 //   BrawlhallaSWZTool encrypt <globalKey_hex> <seed_hex>  <input.json> <output.swz>
-// ---------------------------------------------------------------------------
+// --------------------------------------------------------------------------
 
 if (args.Length < 3)
 {
