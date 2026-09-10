@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet" />
   <img src="https://img.shields.io/badge/Platform-Win--x64-0078D4?logo=windows" />
   <img src="https://img.shields.io/badge/License-MIT-green" />
-</p>
+</p> 
 
 ---
 
