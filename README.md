@@ -21,7 +21,7 @@
 
 | Tab | Description |
 |-----|-------------|
-| **Key Finder** | Automatically locates `BrawlhallaAir.swf` in your Steam library and extracts the SWZ encryption key from the ABC bytecode |
+| **Key Finder** | Automatically locates `BrawlhallaAir.swf` in your Steam library and extracts the SWZ  encryption key from the ABC bytecode |
 | **Decrypt** | Decrypts `.swz` archives into readable XML using the global key |
 | **Encrypt** | Re-encrypts modified XML back into a valid `.swz` file the game can load |
 | **Memory Reader** | Attaches to a running Brawlhalla process and reads live game data (Camera, Player, Input) via AOB pattern scanning |
